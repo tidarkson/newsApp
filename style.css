@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: all .6s ease-in;
+}
+
+ body {
+    font-family: 'Sora', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    /* color: #ffffff;  */
+  }
+
+  .navbar {
+    background-color: #152136;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+  }
+  .footer {
+    background-color: #152136;
+    color: #0d6efd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; padding: 0;
+}
+
+    @media (min-width: 470px)
+{    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1400px;
+    }
+}
+
+@media (min-width: 200px)
+{.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    /* flex-basis: auto; */
+}
+}
+
+@media (min-width: 470px){  
+  form.d-flex {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 20px;    }
+}
+
+a.btn.btn-dark {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+}
+
+h4.card-title {
+    height: 200px;
+    margin: 10px;
+}
+
+p.text-muted {
+    padding-bottom: 30px;
+}
+
+h4.card-title {
+    height: 200px;
+    margin: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* white-space: nowrap; */
+}
